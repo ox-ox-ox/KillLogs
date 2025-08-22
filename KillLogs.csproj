@@ -59,7 +59,7 @@
         </PackageReference>
         <PackageReference Include="DSharp4Webhook" Version="2.0.1" />
         <PackageReference Include="ExMod.Exiled" Version="9.6.2" />
-        <PackageReference Include="Fody" Version="6.9.2">
+        <PackageReference Include="Fody" Version="6.9.3">
           <PrivateAssets>all</PrivateAssets>
           <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
         </PackageReference>
