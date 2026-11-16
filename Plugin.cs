@@ -17,11 +17,11 @@ namespace KillLogs
 {
     public class Plugin : Plugin<Config>
     {
-        public override string Author => "0b10000";
+        public override string Author => "ox";
         public override string Name => "KillLogs";
         public override string Prefix => "KillLogs";
-        public override Version Version { get; } = new(9, 6, 0);
-        public override Version RequiredExiledVersion { get; } = new(9,6,0);
+        public override Version Version { get; } = new(9, 15, 2);
+        public override Version RequiredExiledVersion { get; } = new(9, 15, 2);
 
         private EventHandlers EventHandlers { get; set; }
         internal Methods Methods { get; set; }
